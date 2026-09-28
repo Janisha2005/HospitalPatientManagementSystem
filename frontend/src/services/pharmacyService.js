@@ -2,176 +2,62 @@ import api from './api';
 
 export const pharmacyService = {
   // Categories
-  getCategories: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/categories', { params: { page, size } });
-    return res.data;
-  },
-  getActiveCategories: async () => {
-    const res = await api.get('/pharmacy/categories/active');
-    return res.data;
-  },
-  createCategory: async (data) => {
-    const res = await api.post('/pharmacy/categories', data);
-    return res.data;
-  },
-  updateCategory: async (id, data) => {
-    const res = await api.put(`/pharmacy/categories/${id}`, data);
-    return res.data;
-  },
+  getCategories: (page = 0, size = 20) => api.get('/pharmacy/categories', { params: { page, size } }),
+  getActiveCategories: () => api.get('/pharmacy/categories/active'),
+  createCategory: (data) => api.post('/pharmacy/categories', data),
+  updateCategory: (id, data) => api.put(`/pharmacy/categories/${id}`, data),
 
   // Medicines
-  getMedicines: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/medicines', { params: { page, size } });
-    return res.data;
-  },
-  getActiveMedicines: async () => {
-    const res = await api.get('/pharmacy/medicines/active');
-    return res.data;
-  },
-  getMedicineById: async (id) => {
-    const res = await api.get(`/pharmacy/medicines/${id}`);
-    return res.data;
-  },
-  createMedicine: async (data) => {
-    const res = await api.post('/pharmacy/medicines', data);
-    return res.data;
-  },
-  updateMedicine: async (id, data) => {
-    const res = await api.put(`/pharmacy/medicines/${id}`, data);
-    return res.data;
-  },
+  getMedicines: (page = 0, size = 20) => api.get('/pharmacy/medicines', { params: { page, size } }),
+  getActiveMedicines: () => api.get('/pharmacy/medicines/active'),
+  getMedicineById: (id) => api.get(`/pharmacy/medicines/${id}`),
+  createMedicine: (data) => api.post('/pharmacy/medicines', data),
+  updateMedicine: (id, data) => api.put(`/pharmacy/medicines/${id}`, data),
 
   // Suppliers
-  getSuppliers: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/suppliers', { params: { page, size } });
-    return res.data;
-  },
-  getActiveSuppliers: async () => {
-    const res = await api.get('/pharmacy/suppliers/active');
-    return res.data;
-  },
-  getSupplierById: async (id) => {
-    const res = await api.get(`/pharmacy/suppliers/${id}`);
-    return res.data;
-  },
-  createSupplier: async (data) => {
-    const res = await api.post('/pharmacy/suppliers', data);
-    return res.data;
-  },
-  updateSupplier: async (id, data) => {
-    const res = await api.put(`/pharmacy/suppliers/${id}`, data);
-    return res.data;
-  },
+  getSuppliers: (page = 0, size = 20) => api.get('/pharmacy/suppliers', { params: { page, size } }),
+  getActiveSuppliers: () => api.get('/pharmacy/suppliers/active'),
+  getSupplierById: (id) => api.get(`/pharmacy/suppliers/${id}`),
+  createSupplier: (data) => api.post('/pharmacy/suppliers', data),
+  updateSupplier: (id, data) => api.put(`/pharmacy/suppliers/${id}`, data),
 
   // Batches
-  getBatches: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/batches', { params: { page, size } });
-    return res.data;
-  },
-  getBatchesByMedicine: async (medicineId) => {
-    const res = await api.get(`/pharmacy/batches/medicine/${medicineId}`);
-    return res.data;
-  },
-  getNearExpiryBatches: async () => {
-    const res = await api.get('/pharmacy/batches/near-expiry');
-    return res.data;
-  },
-  getExpiredBatches: async () => {
-    const res = await api.get('/pharmacy/batches/expired');
-    return res.data;
-  },
-  createBatch: async (data) => {
-    const res = await api.post('/pharmacy/batches', data);
-    return res.data;
-  },
+  getBatches: (page = 0, size = 20) => api.get('/pharmacy/batches', { params: { page, size } }),
+  getBatchesByMedicine: (medicineId) => api.get(`/pharmacy/batches/medicine/${medicineId}`),
+  getNearExpiryBatches: () => api.get('/pharmacy/batches/near-expiry'),
+  getExpiredBatches: () => api.get('/pharmacy/batches/expired'),
+  createBatch: (data) => api.post('/pharmacy/batches', data),
 
   // Inventory & Stock Adjustment
-  getInventory: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/inventory', { params: { page, size } });
-    return res.data;
-  },
-  getLowStock: async () => {
-    const res = await api.get('/pharmacy/inventory/low-stock');
-    return res.data;
-  },
-  getMedicineTransactions: async (medicineId, page = 0, size = 20) => {
-    const res = await api.get(`/pharmacy/inventory/${medicineId}/transactions`, { params: { page, size } });
-    return res.data;
-  },
-  adjustStock: async (data) => {
-    const res = await api.post('/pharmacy/inventory/adjust', data);
-    return res.data;
-  },
+  getInventory: (page = 0, size = 20) => api.get('/pharmacy/inventory', { params: { page, size } }),
+  getLowStock: () => api.get('/pharmacy/inventory/low-stock'),
+  getMedicineTransactions: (medicineId, page = 0, size = 20) => api.get(`/pharmacy/inventory/${medicineId}/transactions`, { params: { page, size } }),
+  adjustStock: (data) => api.post('/pharmacy/inventory/adjust', data),
 
   // Purchase Orders
-  getPurchaseOrders: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/purchase-orders', { params: { page, size } });
-    return res.data;
-  },
-  getPurchaseOrderById: async (id) => {
-    const res = await api.get(`/pharmacy/purchase-orders/${id}`);
-    return res.data;
-  },
-  createPurchaseOrder: async (data) => {
-    const res = await api.post('/pharmacy/purchase-orders', data);
-    return res.data;
-  },
-  updatePurchaseOrderStatus: async (id, status) => {
-    const res = await api.patch(`/pharmacy/purchase-orders/${id}/status`, null, { params: { status } });
-    return res.data;
-  },
+  getPurchaseOrders: (page = 0, size = 20) => api.get('/pharmacy/purchase-orders', { params: { page, size } }),
+  getPurchaseOrderById: (id) => api.get(`/pharmacy/purchase-orders/${id}`),
+  createPurchaseOrder: (data) => api.post('/pharmacy/purchase-orders', data),
+  updatePurchaseOrderStatus: (id, status) => api.patch(`/pharmacy/purchase-orders/${id}/status`, null, { params: { status } }),
 
   // Goods Receipts (GRN)
-  getGoodsReceipts: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/goods-receipts', { params: { page, size } });
-    return res.data;
-  },
-  getGoodsReceiptById: async (id) => {
-    const res = await api.get(`/pharmacy/goods-receipts/${id}`);
-    return res.data;
-  },
-  createGoodsReceipt: async (data) => {
-    const res = await api.post('/pharmacy/goods-receipts', data);
-    return res.data;
-  },
+  getGoodsReceipts: (page = 0, size = 20) => api.get('/pharmacy/goods-receipts', { params: { page, size } }),
+  getGoodsReceiptById: (id) => api.get(`/pharmacy/goods-receipts/${id}`),
+  createGoodsReceipt: (data) => api.post('/pharmacy/goods-receipts', data),
 
   // Dispensing
-  getDispensings: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/dispensing', { params: { page, size } });
-    return res.data;
-  },
-  dispenseMedicine: async (data) => {
-    const res = await api.post('/pharmacy/dispensing', data);
-    return res.data;
-  },
-  getDispensingsByPrescription: async (prescriptionId) => {
-    const res = await api.get(`/pharmacy/prescriptions/${prescriptionId}/dispensing`);
-    return res.data;
-  },
+  getDispensings: (page = 0, size = 20) => api.get('/pharmacy/dispensing', { params: { page, size } }),
+  dispenseMedicine: (data) => api.post('/pharmacy/dispensing', data),
+  getDispensingsByPrescription: (prescriptionId) => api.get(`/pharmacy/prescriptions/${prescriptionId}/dispensing`),
 
   // Returns
-  getReturns: async (page = 0, size = 20) => {
-    const res = await api.get('/pharmacy/returns', { params: { page, size } });
-    return res.data;
-  },
-  processPatientReturn: async (data) => {
-    const res = await api.post('/pharmacy/returns/patient', data);
-    return res.data;
-  },
-  processSupplierReturn: async (data) => {
-    const res = await api.post('/pharmacy/returns/supplier', data);
-    return res.data;
-  },
+  getReturns: (page = 0, size = 20) => api.get('/pharmacy/returns', { params: { page, size } }),
+  processPatientReturn: (data) => api.post('/pharmacy/returns/patient', data),
+  processSupplierReturn: (data) => api.post('/pharmacy/returns/supplier', data),
 
   // Dashboards
-  getPharmacyDashboard: async () => {
-    const res = await api.get('/pharmacy/dashboard');
-    return res.data;
-  },
-  getInventoryDashboard: async () => {
-    const res = await api.get('/pharmacy/inventory/dashboard');
-    return res.data;
-  }
+  getPharmacyDashboard: () => api.get('/pharmacy/dashboard'),
+  getInventoryDashboard: () => api.get('/pharmacy/inventory/dashboard')
 };
 
 export default pharmacyService;

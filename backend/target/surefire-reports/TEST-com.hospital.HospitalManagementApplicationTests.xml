@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hospital.HospitalManagementApplicationTests" time="48.863" tests="47" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hospital.HospitalManagementApplicationTests" time="60.374" tests="47" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire17059202560970777526\surefirebooter-20260926183449265_3.jar C:\Users\HP\AppData\Local\Temp\surefire17059202560970777526 2026-09-26T18-34-48_904-jvmRun1 surefire-20260926183449265_1tmp surefire_0-20260926183449265_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire13735076232763138007\surefirebooter-20260928155235120_3.jar C:\Users\HP\AppData\Local\Temp\surefire13735076232763138007 2026-09-28T15-52-34_436-jvmRun1 surefire-20260928155235120_1tmp surefire_0-20260928155235120_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Project\UM_Internship\HospitalPatientManagementSystem\backend\target\test-classes;D:\Project\UM_Internship\HospitalPatientManagementSystem\backend\target\classes;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\HP\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\HP\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\HP\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\HP\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\HP\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\HP\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\HP\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\HP\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\HP\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\HP\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.5\spring-boot-starter-data-jpa-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.5\spring-boot-starter-aop-3.2.5.jar;C:\Users\HP\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.5\spring-boot-starter-jdbc-3.2.5.jar;C:\Users\HP\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\HP\.m2\repository\org\springframework\spring-jdbc\6.1.6\spring-jdbc-6.1.6.jar;C:\Users\HP\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\HP\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\HP\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\HP\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\HP\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\HP\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\HP\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\HP\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\HP\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\HP\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\HP\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\HP\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\HP\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\HP\.m2\repository\org\springframework\data\spring-data-jpa\3.2.5\spring-data-jpa-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\data\spring-data-commons\3.2.5\spring-data-commons-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\spring-orm\6.1.6\spring-orm-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\spring-tx\6.1.6\spring-tx-6.1.6.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\HP\.m2\repository\org\springframework\spring-aspects\6.1.6\spring-aspects-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.5\spring-boot-starter-security-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\security\spring-security-config\6.2.4\spring-security-config-6.2.4.jar;C:\Users\HP\.m2\repository\org\springframework\security\spring-security-web\6.2.4\spring-security-web-6.2.4.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.5\spring-boot-starter-validation-3.2.5.jar;C:\Users\HP\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\HP\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\HP\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\HP\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\HP\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\HP\.m2\repository\io\jsonwebtoken\jjwt-api\0.12.5\jjwt-api-0.12.5.jar;C:\Users\HP\.m2\repository\io\jsonwebtoken\jjwt-impl\0.12.5\jjwt-impl-0.12.5.jar;C:\Users\HP\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.12.5\jjwt-jackson-0.12.5.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\HP\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\HP\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\HP\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\HP\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\HP\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\HP\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\HP\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\HP\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\HP\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\HP\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\HP\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\HP\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\HP\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\HP\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\HP\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\HP\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\HP\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\HP\.m2\repository\org\springframework\security\spring-security-test\6.2.4\spring-security-test-6.2.4.jar;C:\Users\HP\.m2\repository\org\springframework\security\spring-security-core\6.2.4\spring-security-core-6.2.4.jar;C:\Users\HP\.m2\repository\org\springframework\security\spring-security-crypto\6.2.4\spring-security-crypto-6.2.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire17059202560970777526\surefirebooter-20260926183449265_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire13735076232763138007\surefirebooter-20260928155235120_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
@@ -52,11 +52,11 @@
     <property name="user.dir" value="D:\Project\UM_Internship\HospitalPatientManagementSystem\backend"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="9456"/>
+    <property name="PID" value="14056"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/HP/.gemini/antigravity-ide/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Ollama;C:\Users\HP\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\HP\AppData\Local\Microsoft\WinGet\Links;C:\Users\HP\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/HP/.gemini/antigravity-ide/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Ollama;C:\Users\HP\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\HP\AppData\Local\Microsoft\WinGet\Links;C:\Users\HP\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;C:\Users\HP\Apache\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -65,9 +65,9 @@
     <property name="java.class.version" value="65.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[hospital-management] "/>
   </properties>
-  <testcase name="testIpdAdmissionAndOneActiveAdmissionRule" classname="com.hospital.HospitalManagementApplicationTests" time="3.071">
-    <system-out><![CDATA[18:34:52.194 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.hospital.HospitalManagementApplicationTests]: HospitalManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:34:52.502 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.hospital.HospitalManagementApplication for test class com.hospital.HospitalManagementApplicationTests
+  <testcase name="testIpdAdmissionAndOneActiveAdmissionRule" classname="com.hospital.HospitalManagementApplicationTests" time="3.304">
+    <system-out><![CDATA[15:52:38.929 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.hospital.HospitalManagementApplicationTests]: HospitalManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:52:39.367 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.hospital.HospitalManagementApplication for test class com.hospital.HospitalManagementApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,21 +77,21 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.5)
 
-2026-09-26T18:34:53.558+05:30  INFO 9456 --- [hospital-management] [           main] c.h.HospitalManagementApplicationTests   : Starting HospitalManagementApplicationTests using Java 21.0.8 with PID 9456 (started by HP in D:\Project\UM_Internship\HospitalPatientManagementSystem\backend)
-2026-09-26T18:34:53.562+05:30  INFO 9456 --- [hospital-management] [           main] c.h.HospitalManagementApplicationTests   : The following 1 profile is active: "test"
-2026-09-26T18:34:56.676+05:30  INFO 9456 --- [hospital-management] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-26T18:34:57.168+05:30  INFO 9456 --- [hospital-management] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 468 ms. Found 50 JPA repository interfaces.
-2026-09-26T18:34:59.669+05:30  INFO 9456 --- [hospital-management] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-09-26T18:35:00.059+05:30  INFO 9456 --- [hospital-management] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2026-09-26T18:35:00.257+05:30  INFO 9456 --- [hospital-management] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-09-26T18:35:01.285+05:30  INFO 9456 --- [hospital-management] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-09-26T18:35:01.402+05:30  INFO 9456 --- [hospital-management] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-26T18:35:01.875+05:30  INFO 9456 --- [hospital-management] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:hospital_test_db user=SA
-2026-09-26T18:35:01.875+05:30  INFO 9456 --- [hospital-management] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-09-26T18:35:01.956+05:30  WARN 9456 --- [hospital-management] [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-09-26T18:35:01.979+05:30  WARN 9456 --- [hospital-management] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-09-26T18:35:06.790+05:30  INFO 9456 --- [hospital-management] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-09-26T18:35:06.820+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:40.548+05:30  INFO 14056 --- [hospital-management] [           main] c.h.HospitalManagementApplicationTests   : Starting HospitalManagementApplicationTests using Java 21.0.8 with PID 14056 (started by HP in D:\Project\UM_Internship\HospitalPatientManagementSystem\backend)
+2026-09-28T15:52:40.548+05:30  INFO 14056 --- [hospital-management] [           main] c.h.HospitalManagementApplicationTests   : The following 1 profile is active: "test"
+2026-09-28T15:52:43.687+05:30  INFO 14056 --- [hospital-management] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-28T15:52:44.836+05:30  INFO 14056 --- [hospital-management] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1089 ms. Found 50 JPA repository interfaces.
+2026-09-28T15:52:48.155+05:30  INFO 14056 --- [hospital-management] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-28T15:52:48.584+05:30  INFO 14056 --- [hospital-management] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-09-28T15:52:48.793+05:30  INFO 14056 --- [hospital-management] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-28T15:52:49.808+05:30  INFO 14056 --- [hospital-management] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-28T15:52:49.918+05:30  INFO 14056 --- [hospital-management] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-28T15:52:50.569+05:30  INFO 14056 --- [hospital-management] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:hospital_test_db user=SA
+2026-09-28T15:52:50.588+05:30  INFO 14056 --- [hospital-management] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-28T15:52:50.932+05:30  WARN 14056 --- [hospital-management] [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-09-28T15:52:50.935+05:30  WARN 14056 --- [hospital-management] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-28T15:52:59.100+05:30  INFO 14056 --- [hospital-management] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-28T15:52:59.178+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table appointments 
        drop 
        foreign key FKawwine5golv8dq2ltn2ih1kpj" via JDBC [Table "APPOINTMENTS" not found;]
@@ -238,7 +238,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "APPOINTMENTS" not fou
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.820+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.205+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table appointments 
        drop 
        foreign key FK7s6sk12lb7298bm0j92j4cdgg" via JDBC [Table "APPOINTMENTS" not found;]
@@ -385,7 +385,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "APPOINTMENTS" not fou
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.836+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.221+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table appointments 
        drop 
        foreign key FKmujeo4tymoo98cmf7uj3vsv76" via JDBC [Table "APPOINTMENTS" not found;]
@@ -532,7 +532,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "APPOINTMENTS" not fou
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.836+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.236+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table appointments 
        drop 
        foreign key FK8exap5wmg8kmb1g1rx3by21yt" via JDBC [Table "APPOINTMENTS" not found;]
@@ -679,7 +679,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "APPOINTMENTS" not fou
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.851+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.236+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bed_allocations 
        drop 
        foreign key FKkrloudak5wvl92yly9hb68w1b" via JDBC [Table "BED_ALLOCATIONS" not found;]
@@ -826,7 +826,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BED_ALLOCATIONS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.871+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.259+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bed_allocations 
        drop 
        foreign key FK4cg10og9xj2heudvxqehnl3bs" via JDBC [Table "BED_ALLOCATIONS" not found;]
@@ -973,7 +973,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BED_ALLOCATIONS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.878+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.271+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bed_allocations 
        drop 
        foreign key FKqbx1uh0f1evboru5gp83b2nnc" via JDBC [Table "BED_ALLOCATIONS" not found;]
@@ -1120,7 +1120,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BED_ALLOCATIONS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.882+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.274+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bed_allocations 
        drop 
        foreign key FKq5o39166vnkmxyomw9iypuots" via JDBC [Table "BED_ALLOCATIONS" not found;]
@@ -1267,7 +1267,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BED_ALLOCATIONS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.889+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.274+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table beds 
        drop 
        foreign key FKccoswfceny9biqfp1jkcpcrqy" via JDBC [Table "BEDS" not found;]
@@ -1414,7 +1414,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BEDS" not found; SQL 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.894+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.290+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bill_items 
        drop 
        foreign key FKj9o7g8krc56gf6t6f0sy4ic5p" via JDBC [Table "BILL_ITEMS" not found;]
@@ -1561,7 +1561,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BILL_ITEMS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.898+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.294+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table billing_accounts 
        drop 
        foreign key FKfia0nd0b6aurdlyq6pa3bmryp" via JDBC [Table "BILLING_ACCOUNTS" not found;]
@@ -1708,7 +1708,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BILLING_ACCOUNTS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.902+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.294+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bills 
        drop 
        foreign key FKs0n8vkugaa62viwirrptllmfh" via JDBC [Table "BILLS" not found;]
@@ -1855,7 +1855,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BILLS" not found; SQL
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.902+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.294+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bills 
        drop 
        foreign key FKp4ndfvw4wcdkxeh0o13spjw1t" via JDBC [Table "BILLS" not found;]
@@ -2002,7 +2002,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BILLS" not found; SQL
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.912+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.323+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bills 
        drop 
        foreign key FK8frs0hgy03pqjufoy9lv77rd8" via JDBC [Table "BILLS" not found;]
@@ -2149,7 +2149,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BILLS" not found; SQL
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.916+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.325+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table bills 
        drop 
        foreign key FKiklkhnj1odoll0m9otela7gb9" via JDBC [Table "BILLS" not found;]
@@ -2296,7 +2296,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BILLS" not found; SQL
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.921+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.325+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table charge_masters 
        drop 
        foreign key FKporyromhsuah47dpbue8kuywp" via JDBC [Table "CHARGE_MASTERS" not found;]
@@ -2443,7 +2443,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CHARGE_MASTERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.928+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.325+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table clinical_diagnoses 
        drop 
        foreign key FKxr5urn1do3gvv72hh0ktiy3e" via JDBC [Table "CLINICAL_DIAGNOSES" not found;]
@@ -2590,7 +2590,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLINICAL_DIAGNOSES" n
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.932+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.325+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table clinical_diagnoses 
        drop 
        foreign key FKp22ud981fwr04999q85c40x7" via JDBC [Table "CLINICAL_DIAGNOSES" not found;]
@@ -2737,7 +2737,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLINICAL_DIAGNOSES" n
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.936+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.342+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table clinical_diagnoses 
        drop 
        foreign key FKr1y1fal2wrenwaok59y6s04d3" via JDBC [Table "CLINICAL_DIAGNOSES" not found;]
@@ -2884,7 +2884,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLINICAL_DIAGNOSES" n
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.941+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.342+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table credit_notes 
        drop 
        foreign key FKm0tkeicbtr9mnxbq9efodb5hi" via JDBC [Table "CREDIT_NOTES" not found;]
@@ -3031,7 +3031,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CREDIT_NOTES" not fou
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.944+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.342+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table credit_notes 
        drop 
        foreign key FKs6wpj5g0lnfc7rumbhu6jeirv" via JDBC [Table "CREDIT_NOTES" not found;]
@@ -3178,7 +3178,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CREDIT_NOTES" not fou
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.946+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.357+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table discharge_plans 
        drop 
        foreign key FK3jkeixnc88cug8fuslrm8ddrk" via JDBC [Table "DISCHARGE_PLANS" not found;]
@@ -3325,7 +3325,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISCHARGE_PLANS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.951+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.360+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table discharge_plans 
        drop 
        foreign key FK5tbsaol9fsto9obkr6fn59ywk" via JDBC [Table "DISCHARGE_PLANS" not found;]
@@ -3472,7 +3472,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISCHARGE_PLANS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.954+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.393+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table discharge_summaries 
        drop 
        foreign key FKs5eocd0senvpxvyh0lprdmdp9" via JDBC [Table "DISCHARGE_SUMMARIES" not found;]
@@ -3619,7 +3619,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISCHARGE_SUMMARIES" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.957+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.393+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table discharge_summaries 
        drop 
        foreign key FKannxockeu2u5p4eq7j7vm8hyh" via JDBC [Table "DISCHARGE_SUMMARIES" not found;]
@@ -3766,7 +3766,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISCHARGE_SUMMARIES" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.960+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.393+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table discharge_summaries 
        drop 
        foreign key FK2s43eem8let2u6tgisk9tt32t" via JDBC [Table "DISCHARGE_SUMMARIES" not found;]
@@ -3913,7 +3913,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DISCHARGE_SUMMARIES" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.965+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.409+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table doctor_availability 
        drop 
        foreign key FKff1k1vuvpn024x0t76qu3gcq5" via JDBC [Table "DOCTOR_AVAILABILITY" not found;]
@@ -4060,7 +4060,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DOCTOR_AVAILABILITY" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.969+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.409+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table doctors 
        drop 
        foreign key FKl2mro81neln9topymd898urh1" via JDBC [Table "DOCTORS" not found;]
@@ -4207,7 +4207,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DOCTORS" not found; S
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.972+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.409+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ehr_records 
        drop 
        foreign key FKgu2g4qrfpv8mfcc6ifxaojikk" via JDBC [Table "EHR_RECORDS" not found;]
@@ -4354,7 +4354,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EHR_RECORDS" not foun
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.972+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.409+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ehr_records 
        drop 
        foreign key FK1rg1py1x2jn5jy2lux0qa9fn8" via JDBC [Table "EHR_RECORDS" not found;]
@@ -4501,7 +4501,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EHR_RECORDS" not foun
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.983+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.424+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ehr_records 
        drop 
        foreign key FKo8qcrvtj18wkhr6cu3oqad9q" via JDBC [Table "EHR_RECORDS" not found;]
@@ -4648,7 +4648,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EHR_RECORDS" not foun
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.988+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.426+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ehr_records 
        drop 
        foreign key FKopn2rvrbmkjyx25a6ijc1sbna" via JDBC [Table "EHR_RECORDS" not found;]
@@ -4795,7 +4795,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EHR_RECORDS" not foun
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.992+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.426+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table goods_receipt_items 
        drop 
        foreign key FKsgguwjpnbk6vwuhf8ag4ax1k9" via JDBC [Table "GOODS_RECEIPT_ITEMS" not found;]
@@ -4942,7 +4942,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GOODS_RECEIPT_ITEMS" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:06.995+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.426+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table goods_receipt_items 
        drop 
        foreign key FKel2i3xb291r13xh5o28hwhqc6" via JDBC [Table "GOODS_RECEIPT_ITEMS" not found;]
@@ -5089,7 +5089,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GOODS_RECEIPT_ITEMS" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.001+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.489+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table goods_receipt_items 
        drop 
        foreign key FKljdknxf41m14m68wa7b0d8ywn" via JDBC [Table "GOODS_RECEIPT_ITEMS" not found;]
@@ -5236,7 +5236,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GOODS_RECEIPT_ITEMS" 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.006+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.520+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table goods_receipts 
        drop 
        foreign key FK31kyyaqb354qfc4pssihmmry5" via JDBC [Table "GOODS_RECEIPTS" not found;]
@@ -5383,7 +5383,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GOODS_RECEIPTS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.011+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.522+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table goods_receipts 
        drop 
        foreign key FKwn1cuunwpj2pd38ndi4etqg6" via JDBC [Table "GOODS_RECEIPTS" not found;]
@@ -5530,7 +5530,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GOODS_RECEIPTS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.016+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.529+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inpatient_progress_notes 
        drop 
        foreign key FKbv1q2uia401xn89lvy9rguivs" via JDBC [Table "INPATIENT_PROGRESS_NOTES" not found;]
@@ -5677,7 +5677,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INPATIENT_PROGRESS_NO
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.019+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.533+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inpatient_progress_notes 
        drop 
        foreign key FKqafo20wwfdxx3ofnl8xt88vtg" via JDBC [Table "INPATIENT_PROGRESS_NOTES" not found;]
@@ -5824,7 +5824,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INPATIENT_PROGRESS_NO
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.023+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.536+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inpatient_progress_notes 
        drop 
        foreign key FKd5o39ovoxa43qgr13yllk0hta" via JDBC [Table "INPATIENT_PROGRESS_NOTES" not found;]
@@ -5971,7 +5971,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INPATIENT_PROGRESS_NO
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.027+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.536+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inpatient_vitals 
        drop 
        foreign key FK9d8gqqnn99swqabottt67iba" via JDBC [Table "INPATIENT_VITALS" not found;]
@@ -6118,7 +6118,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INPATIENT_VITALS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.032+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.547+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inpatient_vitals 
        drop 
        foreign key FK71eqlc58dmcdmamd4curuin1x" via JDBC [Table "INPATIENT_VITALS" not found;]
@@ -6265,7 +6265,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INPATIENT_VITALS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.038+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.551+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inventory_transactions 
        drop 
        foreign key FKnbli67t0dbt7gikf00hppbk4p" via JDBC [Table "INVENTORY_TRANSACTIONS" not found;]
@@ -6412,7 +6412,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INVENTORY_TRANSACTION
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.041+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.555+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table inventory_transactions 
        drop 
        foreign key FKj1h7m4cgkebtiukg38vgx7edp" via JDBC [Table "INVENTORY_TRANSACTIONS" not found;]
@@ -6559,7 +6559,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INVENTORY_TRANSACTION
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.045+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.646+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ipd_admissions 
        drop 
        foreign key FK7w9yh09wams1evmc0yj5sa3b7" via JDBC [Table "IPD_ADMISSIONS" not found;]
@@ -6706,7 +6706,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "IPD_ADMISSIONS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.045+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.763+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ipd_admissions 
        drop 
        foreign key FK38qqs43338mjdgthq8ostnmuq" via JDBC [Table "IPD_ADMISSIONS" not found;]
@@ -6853,7 +6853,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "IPD_ADMISSIONS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.059+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.796+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ipd_admissions 
        drop 
        foreign key FKpfeu16esivfieurcfpmu5xv5x" via JDBC [Table "IPD_ADMISSIONS" not found;]
@@ -7000,7 +7000,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "IPD_ADMISSIONS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.062+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.879+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ipd_admissions 
        drop 
        foreign key FK1lckrl5iogy6vmvgkmpgy222s" via JDBC [Table "IPD_ADMISSIONS" not found;]
@@ -7147,7 +7147,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "IPD_ADMISSIONS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.065+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.913+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ipd_admissions 
        drop 
        foreign key FK9opub4uff0nv99bytllfw54tr" via JDBC [Table "IPD_ADMISSIONS" not found;]
@@ -7294,7 +7294,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "IPD_ADMISSIONS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.069+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.913+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ipd_admissions 
        drop 
        foreign key FK4nbuh4x5rihxxnrdhfy7cpu9m" via JDBC [Table "IPD_ADMISSIONS" not found;]
@@ -7441,7 +7441,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "IPD_ADMISSIONS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.073+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.929+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_order_items 
        drop 
        foreign key FK6g9mnhc4gpnkdeyx91xifh78t" via JDBC [Table "LAB_ORDER_ITEMS" not found;]
@@ -7588,7 +7588,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDER_ITEMS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.077+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.929+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_order_items 
        drop 
        foreign key FKntun1mgdnd8flgl35p7uqwuib" via JDBC [Table "LAB_ORDER_ITEMS" not found;]
@@ -7735,7 +7735,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDER_ITEMS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.081+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:52:59.995+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_order_items 
        drop 
        foreign key FKqmpmr1cn6vw2ak2nyfecp6bou" via JDBC [Table "LAB_ORDER_ITEMS" not found;]
@@ -7882,7 +7882,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDER_ITEMS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.084+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.012+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_order_items 
        drop 
        foreign key FK5rq6gioxidofnvlaiwd5ulnm7" via JDBC [Table "LAB_ORDER_ITEMS" not found;]
@@ -8029,7 +8029,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDER_ITEMS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.087+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.028+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_orders 
        drop 
        foreign key FK2hjk7jo5keglo722kwhkfjfhm" via JDBC [Table "LAB_ORDERS" not found;]
@@ -8176,7 +8176,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDERS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.087+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.028+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_orders 
        drop 
        foreign key FKo7am0488341w83mkp8oxmhqcq" via JDBC [Table "LAB_ORDERS" not found;]
@@ -8323,7 +8323,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDERS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.087+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.028+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_orders 
        drop 
        foreign key FK7dxdl2tuloegmlj2kqhw5e3bn" via JDBC [Table "LAB_ORDERS" not found;]
@@ -8470,7 +8470,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDERS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.098+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.046+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_orders 
        drop 
        foreign key FKthw0jarnyedxux7fxbjp6nk7k" via JDBC [Table "LAB_ORDERS" not found;]
@@ -8617,7 +8617,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDERS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.098+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.046+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table lab_orders 
        drop 
        foreign key FK2o61qka6x79j7xa75d5otnlei" via JDBC [Table "LAB_ORDERS" not found;]
@@ -8764,7 +8764,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LAB_ORDERS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.114+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.046+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table medicine_batches 
        drop 
        foreign key FKc7xcd7bwmfmmfm24oixxu00a2" via JDBC [Table "MEDICINE_BATCHES" not found;]
@@ -8911,7 +8911,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEDICINE_BATCHES" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.117+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.046+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table medicine_batches 
        drop 
        foreign key FKlds0umb8e6lk2afnbqnmjyy41" via JDBC [Table "MEDICINE_BATCHES" not found;]
@@ -9058,7 +9058,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEDICINE_BATCHES" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.149+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.117+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table medicines 
        drop 
        foreign key FKki3pw3kdp06pkcowg5rkv04qu" via JDBC [Table "MEDICINES" not found;]
@@ -9205,7 +9205,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEDICINES" not found;
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.154+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.124+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table nursing_notes 
        drop 
        foreign key FKn1np5oxqtfh4p87cmtelu5rel" via JDBC [Table "NURSING_NOTES" not found;]
@@ -9352,7 +9352,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NURSING_NOTES" not fo
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.163+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.142+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table nursing_notes 
        drop 
        foreign key FK94204vv0av82bd4byo2adsfc" via JDBC [Table "NURSING_NOTES" not found;]
@@ -9499,7 +9499,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NURSING_NOTES" not fo
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.169+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.158+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table nursing_notes 
        drop 
        foreign key FKprgxmhb6arh7x671gv6tt163s" via JDBC [Table "NURSING_NOTES" not found;]
@@ -9646,7 +9646,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NURSING_NOTES" not fo
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.173+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.163+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table opd_visits 
        drop 
        foreign key FK5skubncmfggmqswvchlbsiqp9" via JDBC [Table "OPD_VISITS" not found;]
@@ -9793,7 +9793,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OPD_VISITS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.179+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.167+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table opd_visits 
        drop 
        foreign key FKpu0mowf6x4jiyikwiy7am83ei" via JDBC [Table "OPD_VISITS" not found;]
@@ -9940,7 +9940,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OPD_VISITS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.189+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.174+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table opd_visits 
        drop 
        foreign key FKfafa365f3pijag6d13xvltqx1" via JDBC [Table "OPD_VISITS" not found;]
@@ -10087,7 +10087,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OPD_VISITS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.195+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.181+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table opd_visits 
        drop 
        foreign key FK7628xv42m7clp2gp5umah3vxp" via JDBC [Table "OPD_VISITS" not found;]
@@ -10234,7 +10234,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OPD_VISITS" not found
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.202+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.186+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_allergies 
        drop 
        foreign key FKklnsfdi730wjhwd6g2uynyg32" via JDBC [Table "PATIENT_ALLERGIES" not found;]
@@ -10381,7 +10381,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_ALLERGIES" no
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.210+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.189+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_allergies 
        drop 
        foreign key FK2w0s1abcw6fc8xn995xnid9s6" via JDBC [Table "PATIENT_ALLERGIES" not found;]
@@ -10528,7 +10528,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_ALLERGIES" no
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.214+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.246+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_conditions 
        drop 
        foreign key FKfycvudwrrf5jh9jxprwvxnf49" via JDBC [Table "PATIENT_CONDITIONS" not found;]
@@ -10675,7 +10675,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_CONDITIONS" n
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.214+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.253+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_conditions 
        drop 
        foreign key FKj63y1t5h8spjpvqoerknyrylh" via JDBC [Table "PATIENT_CONDITIONS" not found;]
@@ -10822,7 +10822,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_CONDITIONS" n
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.225+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.260+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_ledger_entries 
        drop 
        foreign key FKswpcujndpyr92amkbcvjbaq4y" via JDBC [Table "PATIENT_LEDGER_ENTRIES" not found;]
@@ -10969,7 +10969,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_LEDGER_ENTRIE
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.232+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.260+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_ledger_entries 
        drop 
        foreign key FK4ya6m48nip66r4aux5ljl6mhk" via JDBC [Table "PATIENT_LEDGER_ENTRIES" not found;]
@@ -11116,7 +11116,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_LEDGER_ENTRIE
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.237+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.260+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_ledger_entries 
        drop 
        foreign key FK9dvg7m4fxnna4gmf8yv87kxdd" via JDBC [Table "PATIENT_LEDGER_ENTRIES" not found;]
@@ -11263,7 +11263,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_LEDGER_ENTRIE
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.240+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.260+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_ledger_entries 
        drop 
        foreign key FKtec8hn6mvreh6jfjyngdtwh0c" via JDBC [Table "PATIENT_LEDGER_ENTRIES" not found;]
@@ -11410,7 +11410,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_LEDGER_ENTRIE
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.256+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.278+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table patient_ledger_entries 
        drop 
        foreign key FK6njcqy216my6afroe4hs1acta" via JDBC [Table "PATIENT_LEDGER_ENTRIES" not found;]
@@ -11557,7 +11557,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PATIENT_LEDGER_ENTRIE
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.277+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.281+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table payments 
        drop 
        foreign key FK9565r6579khpdjxnyla0l2ycd" via JDBC [Table "PAYMENTS" not found;]
@@ -11704,7 +11704,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PAYMENTS" not found; 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.292+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.284+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table payments 
        drop 
        foreign key FKlvfcgbin5vh2ivae1l87bmawb" via JDBC [Table "PAYMENTS" not found;]
@@ -11851,7 +11851,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PAYMENTS" not found; 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.296+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.290+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FKhp6cbapdfcb1v522y7lufcpfh" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -11998,7 +11998,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.301+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.315+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FK2e324w02nk1lsvrfm2eobsqpf" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -12145,7 +12145,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.304+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.320+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FKorvfduehens9pr6gcex3wkvt8" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -12292,7 +12292,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.304+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.331+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FKjborilsurpblo63vt2n2t6fui" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -12439,7 +12439,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.304+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.333+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FK9224frwboo810s27i7npgy313" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -12586,7 +12586,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.304+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.336+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FKqhyoupsn2h3xnx7e4ea2besk4" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -12733,7 +12733,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.333+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.340+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_dispensings 
        drop 
        foreign key FK8n1g7u5ppdifnpcdji31x8wxt" via JDBC [Table "PHARMACY_DISPENSINGS" not found;]
@@ -12880,7 +12880,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_DISPENSINGS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.339+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.344+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_return_items 
        drop 
        foreign key FKoiimf5089vy0rxajhvvhvsxhd" via JDBC [Table "PHARMACY_RETURN_ITEMS" not found;]
@@ -13027,7 +13027,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_RETURN_ITEMS
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.344+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.347+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_return_items 
        drop 
        foreign key FKntgf7uhd8l2ohog9djmdln401" via JDBC [Table "PHARMACY_RETURN_ITEMS" not found;]
@@ -13174,7 +13174,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_RETURN_ITEMS
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.350+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.351+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_return_items 
        drop 
        foreign key FK473oau2w6t5sirk5ti6bmmhgv" via JDBC [Table "PHARMACY_RETURN_ITEMS" not found;]
@@ -13321,7 +13321,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_RETURN_ITEMS
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.354+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.354+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_returns 
        drop 
        foreign key FKm969916ylodsbgnmudtemr737" via JDBC [Table "PHARMACY_RETURNS" not found;]
@@ -13468,7 +13468,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_RETURNS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.354+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.368+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_returns 
        drop 
        foreign key FK3r5q78tsg1bsm76q913e22lgg" via JDBC [Table "PHARMACY_RETURNS" not found;]
@@ -13615,7 +13615,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_RETURNS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.354+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.381+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table pharmacy_returns 
        drop 
        foreign key FKiis0vl6jehqnbkt88lcgbnu85" via JDBC [Table "PHARMACY_RETURNS" not found;]
@@ -13762,7 +13762,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHARMACY_RETURNS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.354+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.386+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table prescription_items 
        drop 
        foreign key FK6uh7tdy2lv6sx34u1365acqsf" via JDBC [Table "PRESCRIPTION_ITEMS" not found;]
@@ -13909,7 +13909,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRESCRIPTION_ITEMS" n
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.369+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.391+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table prescriptions 
        drop 
        foreign key FK24chc88e4so7cd6melh11rv6" via JDBC [Table "PRESCRIPTIONS" not found;]
@@ -14056,7 +14056,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRESCRIPTIONS" not fo
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.369+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.394+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table prescriptions 
        drop 
        foreign key FKskme95vdfv8pcgrn367kngbmo" via JDBC [Table "PRESCRIPTIONS" not found;]
@@ -14203,7 +14203,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRESCRIPTIONS" not fo
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.369+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.401+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table prescriptions 
        drop 
        foreign key FKqydyol76jn1o37k1bdbkjgq74" via JDBC [Table "PRESCRIPTIONS" not found;]
@@ -14350,7 +14350,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRESCRIPTIONS" not fo
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.369+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.404+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table purchase_order_items 
        drop 
        foreign key FKb8eixqn0uouxtyixl57mmuq3a" via JDBC [Table "PURCHASE_ORDER_ITEMS" not found;]
@@ -14497,7 +14497,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PURCHASE_ORDER_ITEMS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.385+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.408+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table purchase_order_items 
        drop 
        foreign key FKo3yj8ocbw2kav38548t22hgh8" via JDBC [Table "PURCHASE_ORDER_ITEMS" not found;]
@@ -14644,7 +14644,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PURCHASE_ORDER_ITEMS"
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.409+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.412+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table purchase_orders 
        drop 
        foreign key FKrpdasmb8y8xs5tiy4369xpinq" via JDBC [Table "PURCHASE_ORDERS" not found;]
@@ -14791,7 +14791,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PURCHASE_ORDERS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.409+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.415+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_orders 
        drop 
        foreign key FKqofsxpiwocmi1qnjpispptdh5" via JDBC [Table "RADIOLOGY_ORDERS" not found;]
@@ -14938,7 +14938,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_ORDERS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.409+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.441+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_orders 
        drop 
        foreign key FKfrkv7yulc57bnv6txuc7dc86o" via JDBC [Table "RADIOLOGY_ORDERS" not found;]
@@ -15085,7 +15085,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_ORDERS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.424+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.455+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_orders 
        drop 
        foreign key FKsmvecrcycfed9oyjdxc3fcnj7" via JDBC [Table "RADIOLOGY_ORDERS" not found;]
@@ -15232,7 +15232,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_ORDERS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.424+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.461+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_orders 
        drop 
        foreign key FKa8e1emvoysca8ejx42cxd5h49" via JDBC [Table "RADIOLOGY_ORDERS" not found;]
@@ -15379,7 +15379,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_ORDERS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.424+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.466+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_orders 
        drop 
        foreign key FKccdhtgciud8pm3hl9xwcruce6" via JDBC [Table "RADIOLOGY_ORDERS" not found;]
@@ -15526,7 +15526,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_ORDERS" not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.437+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.489+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_reports 
        drop 
        foreign key FK8sqknge58n6xt717y2ai166i0" via JDBC [Table "RADIOLOGY_REPORTS" not found;]
@@ -15673,7 +15673,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_REPORTS" no
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.440+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.495+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_reports 
        drop 
        foreign key FKhohwejto6v2gtuvnuiiswsl69" via JDBC [Table "RADIOLOGY_REPORTS" not found;]
@@ -15820,7 +15820,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_REPORTS" no
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.446+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.501+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table radiology_reports 
        drop 
        foreign key FK31tu3xdepw4q1hhj4pglx7twe" via JDBC [Table "RADIOLOGY_REPORTS" not found;]
@@ -15967,7 +15967,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RADIOLOGY_REPORTS" no
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.446+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.503+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table refunds 
        drop 
        foreign key FKphgngxx0nediaj6vmm47yb2s0" via JDBC [Table "REFUNDS" not found;]
@@ -16114,7 +16114,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REFUNDS" not found; S
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.462+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.506+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table refunds 
        drop 
        foreign key FKssqubgndqrxg90bxn7jysm94a" via JDBC [Table "REFUNDS" not found;]
@@ -16261,7 +16261,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REFUNDS" not found; S
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.462+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.510+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table refunds 
        drop 
        foreign key FKpt9ic0j1y6xwlej99wnynvnpy" via JDBC [Table "REFUNDS" not found;]
@@ -16408,7 +16408,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REFUNDS" not found; S
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.477+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.591+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table treatment_plans 
        drop 
        foreign key FKsho53qwelu813xkdfjy00bn1s" via JDBC [Table "TREATMENT_PLANS" not found;]
@@ -16555,7 +16555,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TREATMENT_PLANS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.477+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.595+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table treatment_plans 
        drop 
        foreign key FKkya036ekalducq8t95mrpfdlh" via JDBC [Table "TREATMENT_PLANS" not found;]
@@ -16702,7 +16702,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TREATMENT_PLANS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.477+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.599+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table treatment_plans 
        drop 
        foreign key FKdvupttfiec08mc9h9exi1r1b1" via JDBC [Table "TREATMENT_PLANS" not found;]
@@ -16849,7 +16849,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TREATMENT_PLANS" not 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.493+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.603+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table users 
        drop 
        foreign key FKp56c1712k691lhsyewcssf40f" via JDBC [Table "USERS" not found;]
@@ -16996,7 +16996,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.493+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.605+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ward_transfers 
        drop 
        foreign key FKkm6su6qywtwc4wtbygwl2sc0l" via JDBC [Table "WARD_TRANSFERS" not found;]
@@ -17143,7 +17143,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARD_TRANSFERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.493+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.624+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ward_transfers 
        drop 
        foreign key FKjo1wyj7srk303jsi0797r3f99" via JDBC [Table "WARD_TRANSFERS" not found;]
@@ -17290,7 +17290,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARD_TRANSFERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.512+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.628+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ward_transfers 
        drop 
        foreign key FKl5bc27eua29hljjwprjar77h7" via JDBC [Table "WARD_TRANSFERS" not found;]
@@ -17437,7 +17437,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARD_TRANSFERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.517+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.630+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ward_transfers 
        drop 
        foreign key FKlc4wxs05mbnvgvbb2ooc96j6s" via JDBC [Table "WARD_TRANSFERS" not found;]
@@ -17584,7 +17584,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARD_TRANSFERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.521+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.633+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ward_transfers 
        drop 
        foreign key FK4kmfu1x9py115yifglpme6jal" via JDBC [Table "WARD_TRANSFERS" not found;]
@@ -17731,7 +17731,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARD_TRANSFERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.527+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.636+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table ward_transfers 
        drop 
        foreign key FKsr88df16sou5a0sxp3qdhmb3o" via JDBC [Table "WARD_TRANSFERS" not found;]
@@ -17878,7 +17878,7 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARD_TRANSFERS" not f
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:07.533+05:30  WARN 9456 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-09-28T15:53:00.641+05:30  WARN 14056 --- [hospital-management] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table wards 
        drop 
        foreign key FKtne8t1tbs247l9kar3w9ajhon" via JDBC [Table "WARDS" not found;]
@@ -18025,19 +18025,19 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WARDS" not found; SQL
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 118 common frames omitted
 
-2026-09-26T18:35:08.546+05:30  INFO 9456 --- [hospital-management] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-09-26T18:35:10.029+05:30  INFO 9456 --- [hospital-management] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-09-26T18:35:20.212+05:30  WARN 9456 --- [hospital-management] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-09-26T18:35:21.539+05:30  INFO 9456 --- [hospital-management] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e50461f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62754600, org.springframework.security.web.context.SecurityContextHolderFilter@7ec287d, org.springframework.security.web.header.HeaderWriterFilter@45ae53aa, org.springframework.web.filter.CorsFilter@d8c2de8, org.springframework.security.web.authentication.logout.LogoutFilter@5f9f94ec, com.hospital.security.JwtAuthenticationFilter@7f762353, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e4fe7ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d55df3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2033326a, org.springframework.security.web.session.SessionManagementFilter@467ba23, org.springframework.security.web.access.ExceptionTranslationFilter@69eb668b, org.springframework.security.web.access.intercept.AuthorizationFilter@454f2ac7]
-2026-09-26T18:35:22.921+05:30  INFO 9456 --- [hospital-management] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-09-26T18:35:22.921+05:30  INFO 9456 --- [hospital-management] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-09-26T18:35:22.921+05:30  INFO 9456 --- [hospital-management] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2026-09-26T18:35:23.016+05:30  INFO 9456 --- [hospital-management] [           main] c.h.HospitalManagementApplicationTests   : Started HospitalManagementApplicationTests in 30.126 seconds (process running for 33.29)
-2026-09-26T18:35:23.045+05:30  INFO 9456 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Initializing India-localized database seed data...
-2026-09-26T18:35:25.582+05:30  INFO 9456 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : India-localized database seed data initialization completed successfully.
-2026-09-26T18:35:25.860+05:30  INFO 9456 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Seeding Phase 5 Pharmacy & Inventory Demo Data...
-2026-09-26T18:35:26.033+05:30  INFO 9456 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Phase 5 Pharmacy & Inventory Demo Data seeded successfully.
-2026-09-26T18:35:26.119+05:30  INFO 9456 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Phase 6 Billing & Financial Management Demo Data seeded successfully.
+2026-09-28T15:53:02.158+05:30  INFO 14056 --- [hospital-management] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-28T15:53:04.225+05:30  INFO 14056 --- [hospital-management] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-28T15:53:15.911+05:30  WARN 14056 --- [hospital-management] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-28T15:53:18.046+05:30  INFO 14056 --- [hospital-management] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c8fe8cd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3402f41a, org.springframework.security.web.context.SecurityContextHolderFilter@7b1ca32d, org.springframework.security.web.header.HeaderWriterFilter@357afae1, org.springframework.web.filter.CorsFilter@580d7c1f, org.springframework.security.web.authentication.logout.LogoutFilter@2a5ae8d4, com.hospital.security.JwtAuthenticationFilter@7b37d57f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dfbd571, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e646bfb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6114a516, org.springframework.security.web.session.SessionManagementFilter@3e632c01, org.springframework.security.web.access.ExceptionTranslationFilter@565f233a, org.springframework.security.web.access.intercept.AuthorizationFilter@62754600]
+2026-09-28T15:53:19.313+05:30  INFO 14056 --- [hospital-management] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-28T15:53:19.314+05:30  INFO 14056 --- [hospital-management] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-28T15:53:19.317+05:30  INFO 14056 --- [hospital-management] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-28T15:53:19.379+05:30  INFO 14056 --- [hospital-management] [           main] c.h.HospitalManagementApplicationTests   : Started HospitalManagementApplicationTests in 39.507 seconds (process running for 43.57)
+2026-09-28T15:53:19.425+05:30  INFO 14056 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Initializing India-localized database seed data...
+2026-09-28T15:53:22.193+05:30  INFO 14056 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : India-localized database seed data initialization completed successfully.
+2026-09-28T15:53:22.594+05:30  INFO 14056 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Seeding Phase 5 Pharmacy & Inventory Demo Data...
+2026-09-28T15:53:22.875+05:30  INFO 14056 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Phase 5 Pharmacy & Inventory Demo Data seeded successfully.
+2026-09-28T15:53:23.008+05:30  INFO 14056 --- [hospital-management] [           main] com.hospital.config.DataInitializer      : Phase 6 Billing & Financial Management Demo Data seeded successfully.
 ]]></system-out>
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
@@ -18045,50 +18045,50 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="testCreditNoteIssuance" classname="com.hospital.HospitalManagementApplicationTests" time="0.664"/>
-  <testcase name="testRbacDoctorCannotProcessRefund" classname="com.hospital.HospitalManagementApplicationTests" time="0.477"/>
-  <testcase name="testWardCreationAndDuplicateRejection" classname="com.hospital.HospitalManagementApplicationTests" time="0.399"/>
-  <testcase name="testRefundProcessing" classname="com.hospital.HospitalManagementApplicationTests" time="0.559"/>
-  <testcase name="testOPDCheckInAndQueue" classname="com.hospital.HospitalManagementApplicationTests" time="0.531"/>
-  <testcase name="testPharmacistLoginSuccess" classname="com.hospital.HospitalManagementApplicationTests" time="0.168"/>
-  <testcase name="testCategoryCreationAndDuplicateRejection" classname="com.hospital.HospitalManagementApplicationTests" time="0.256"/>
-  <testcase name="testDoctorCreationWithINR" classname="com.hospital.HospitalManagementApplicationTests" time="0.265"/>
-  <testcase name="testAllergiesAndConditions" classname="com.hospital.HospitalManagementApplicationTests" time="0.217"/>
-  <testcase name="testIndianPincodeValidation" classname="com.hospital.HospitalManagementApplicationTests" time="0.015"/>
-  <testcase name="testFefoPrescriptionDispensing" classname="com.hospital.HospitalManagementApplicationTests" time="0.252"/>
-  <testcase name="testIndianPhoneValidation" classname="com.hospital.HospitalManagementApplicationTests" time="0.015"/>
-  <testcase name="testPatientOwnershipPrivacy" classname="com.hospital.HospitalManagementApplicationTests" time="0.188"/>
-  <testcase name="testExpiredBatchDispensingRejection" classname="com.hospital.HospitalManagementApplicationTests" time="0.172"/>
-  <testcase name="testBillingOfficerRoleAndAuth" classname="com.hospital.HospitalManagementApplicationTests" time="0.141"/>
-  <testcase name="testDoctorConsultationWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.346"/>
-  <testcase name="testSupplierReturnWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.208"/>
-  <testcase name="testOpdSourceBillingAndDuplicateProtection" classname="com.hospital.HospitalManagementApplicationTests" time="0.203"/>
-  <testcase name="testPrescriptionWorkflowAndImmutability" classname="com.hospital.HospitalManagementApplicationTests" time="0.399"/>
-  <testcase name="testPatientRegistrationWithIndianAddress" classname="com.hospital.HospitalManagementApplicationTests" time="0.392"/>
-  <testcase name="testGoodsReceiptStockArrival" classname="com.hospital.HospitalManagementApplicationTests" time="0.236"/>
-  <testcase name="testSupplierRegistration" classname="com.hospital.HospitalManagementApplicationTests" time="0.17"/>
-  <testcase name="testAdminLoginSuccess" classname="com.hospital.HospitalManagementApplicationTests" time="0.124"/>
-  <testcase name="testEhrRecordAndTimeline" classname="com.hospital.HospitalManagementApplicationTests" time="0.4"/>
-  <testcase name="testInvalidPhoneFormat" classname="com.hospital.HospitalManagementApplicationTests" time="0.137"/>
-  <testcase name="testPatientReturnWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.265"/>
-  <testcase name="testDoctorAvailabilityAndSlots" classname="com.hospital.HospitalManagementApplicationTests" time="0.229"/>
-  <testcase name="testPatientLedgerRetrieval" classname="com.hospital.HospitalManagementApplicationTests" time="0.157"/>
-  <testcase name="testRadiologyWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.255"/>
-  <testcase name="testIpdAdmissionWorkflowToDischarge" classname="com.hospital.HospitalManagementApplicationTests" time="0.516"/>
-  <testcase name="testStockAdjustment" classname="com.hospital.HospitalManagementApplicationTests" time="0.133"/>
-  <testcase name="testChargeMasterManagement" classname="com.hospital.HospitalManagementApplicationTests" time="0.127"/>
-  <testcase name="testPharmacyDashboardMetrics" classname="com.hospital.HospitalManagementApplicationTests" time="0.224"/>
-  <testcase name="testLaboratoryWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.217"/>
-  <testcase name="testRoleAuthorizationForbidden" classname="com.hospital.HospitalManagementApplicationTests" time="0.109"/>
-  <testcase name="testIpdFinalBillingAndDischargeClearance" classname="com.hospital.HospitalManagementApplicationTests" time="0.261"/>
-  <testcase name="testAppointmentCreationAndDoubleBookingConflict" classname="com.hospital.HospitalManagementApplicationTests" time="0.21"/>
-  <testcase name="testPaymentExceedingOutstandingRejected" classname="com.hospital.HospitalManagementApplicationTests" time="0.249"/>
-  <testcase name="testDraftBillCreationAndItemAddition" classname="com.hospital.HospitalManagementApplicationTests" time="0.174"/>
-  <testcase name="testPurchaseOrderCreationAndCalculation" classname="com.hospital.HospitalManagementApplicationTests" time="0.311"/>
-  <testcase name="testRbacDoctorCannotAdjustStock" classname="com.hospital.HospitalManagementApplicationTests" time="0.109"/>
-  <testcase name="testPaymentRecordingAndOutstanding" classname="com.hospital.HospitalManagementApplicationTests" time="0.141"/>
-  <testcase name="testBedCreationAndAvailableRetrieval" classname="com.hospital.HospitalManagementApplicationTests" time="0.218"/>
-  <testcase name="testUnauthorizedAccess" classname="com.hospital.HospitalManagementApplicationTests" time="0.016"/>
-  <testcase name="testBatchCreationAndValidation" classname="com.hospital.HospitalManagementApplicationTests" time="0.116"/>
-  <testcase name="testBillingDashboardMetrics" classname="com.hospital.HospitalManagementApplicationTests" time="0.301"/>
+  <testcase name="testCreditNoteIssuance" classname="com.hospital.HospitalManagementApplicationTests" time="0.411"/>
+  <testcase name="testRbacDoctorCannotProcessRefund" classname="com.hospital.HospitalManagementApplicationTests" time="0.157"/>
+  <testcase name="testWardCreationAndDuplicateRejection" classname="com.hospital.HospitalManagementApplicationTests" time="0.337"/>
+  <testcase name="testRefundProcessing" classname="com.hospital.HospitalManagementApplicationTests" time="0.369"/>
+  <testcase name="testOPDCheckInAndQueue" classname="com.hospital.HospitalManagementApplicationTests" time="0.366"/>
+  <testcase name="testPharmacistLoginSuccess" classname="com.hospital.HospitalManagementApplicationTests" time="0.166"/>
+  <testcase name="testCategoryCreationAndDuplicateRejection" classname="com.hospital.HospitalManagementApplicationTests" time="0.185"/>
+  <testcase name="testDoctorCreationWithINR" classname="com.hospital.HospitalManagementApplicationTests" time="0.419"/>
+  <testcase name="testAllergiesAndConditions" classname="com.hospital.HospitalManagementApplicationTests" time="0.228"/>
+  <testcase name="testIndianPincodeValidation" classname="com.hospital.HospitalManagementApplicationTests" time="0.017"/>
+  <testcase name="testFefoPrescriptionDispensing" classname="com.hospital.HospitalManagementApplicationTests" time="0.295"/>
+  <testcase name="testIndianPhoneValidation" classname="com.hospital.HospitalManagementApplicationTests" time="0.019"/>
+  <testcase name="testPatientOwnershipPrivacy" classname="com.hospital.HospitalManagementApplicationTests" time="0.397"/>
+  <testcase name="testExpiredBatchDispensingRejection" classname="com.hospital.HospitalManagementApplicationTests" time="0.233"/>
+  <testcase name="testBillingOfficerRoleAndAuth" classname="com.hospital.HospitalManagementApplicationTests" time="0.199"/>
+  <testcase name="testDoctorConsultationWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.497"/>
+  <testcase name="testSupplierReturnWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.221"/>
+  <testcase name="testOpdSourceBillingAndDuplicateProtection" classname="com.hospital.HospitalManagementApplicationTests" time="0.314"/>
+  <testcase name="testPrescriptionWorkflowAndImmutability" classname="com.hospital.HospitalManagementApplicationTests" time="0.383"/>
+  <testcase name="testPatientRegistrationWithIndianAddress" classname="com.hospital.HospitalManagementApplicationTests" time="0.466"/>
+  <testcase name="testGoodsReceiptStockArrival" classname="com.hospital.HospitalManagementApplicationTests" time="0.499"/>
+  <testcase name="testSupplierRegistration" classname="com.hospital.HospitalManagementApplicationTests" time="0.184"/>
+  <testcase name="testAdminLoginSuccess" classname="com.hospital.HospitalManagementApplicationTests" time="0.165"/>
+  <testcase name="testEhrRecordAndTimeline" classname="com.hospital.HospitalManagementApplicationTests" time="0.466"/>
+  <testcase name="testInvalidPhoneFormat" classname="com.hospital.HospitalManagementApplicationTests" time="0.233"/>
+  <testcase name="testPatientReturnWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.216"/>
+  <testcase name="testDoctorAvailabilityAndSlots" classname="com.hospital.HospitalManagementApplicationTests" time="0.305"/>
+  <testcase name="testPatientLedgerRetrieval" classname="com.hospital.HospitalManagementApplicationTests" time="0.195"/>
+  <testcase name="testRadiologyWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.25"/>
+  <testcase name="testIpdAdmissionWorkflowToDischarge" classname="com.hospital.HospitalManagementApplicationTests" time="0.615"/>
+  <testcase name="testStockAdjustment" classname="com.hospital.HospitalManagementApplicationTests" time="0.183"/>
+  <testcase name="testChargeMasterManagement" classname="com.hospital.HospitalManagementApplicationTests" time="0.211"/>
+  <testcase name="testPharmacyDashboardMetrics" classname="com.hospital.HospitalManagementApplicationTests" time="0.3"/>
+  <testcase name="testLaboratoryWorkflow" classname="com.hospital.HospitalManagementApplicationTests" time="0.265"/>
+  <testcase name="testRoleAuthorizationForbidden" classname="com.hospital.HospitalManagementApplicationTests" time="0.15"/>
+  <testcase name="testIpdFinalBillingAndDischargeClearance" classname="com.hospital.HospitalManagementApplicationTests" time="0.203"/>
+  <testcase name="testAppointmentCreationAndDoubleBookingConflict" classname="com.hospital.HospitalManagementApplicationTests" time="0.165"/>
+  <testcase name="testPaymentExceedingOutstandingRejected" classname="com.hospital.HospitalManagementApplicationTests" time="0.185"/>
+  <testcase name="testDraftBillCreationAndItemAddition" classname="com.hospital.HospitalManagementApplicationTests" time="0.231"/>
+  <testcase name="testPurchaseOrderCreationAndCalculation" classname="com.hospital.HospitalManagementApplicationTests" time="0.379"/>
+  <testcase name="testRbacDoctorCannotAdjustStock" classname="com.hospital.HospitalManagementApplicationTests" time="0.165"/>
+  <testcase name="testPaymentRecordingAndOutstanding" classname="com.hospital.HospitalManagementApplicationTests" time="0.2"/>
+  <testcase name="testBedCreationAndAvailableRetrieval" classname="com.hospital.HospitalManagementApplicationTests" time="0.183"/>
+  <testcase name="testUnauthorizedAccess" classname="com.hospital.HospitalManagementApplicationTests" time="0.017"/>
+  <testcase name="testBatchCreationAndValidation" classname="com.hospital.HospitalManagementApplicationTests" time="0.16"/>
+  <testcase name="testBillingDashboardMetrics" classname="com.hospital.HospitalManagementApplicationTests" time="0.306"/>
 </testsuite>

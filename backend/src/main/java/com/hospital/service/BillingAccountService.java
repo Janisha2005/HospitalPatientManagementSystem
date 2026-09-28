@@ -38,7 +38,7 @@ public class BillingAccountService {
         });
     }
 
-    @Transactional(readOnly = true)
+    @Transactional
     public BillingAccountDto getAccountByPatientId(Long patientId) {
         BillingAccount acc = getOrCreateAccountForPatient(patientId);
         return mapToDto(acc);

@@ -16,9 +16,9 @@ const MedicineListPage = () => {
     setLoading(true);
     try {
       const res = await pharmacyService.getMedicines(0, 100);
-      setMedicines(res.data.content || []);
+      setMedicines(res.data?.content || res.data || []);
     } catch (err) {
-      setError(err.response?.data?.message || 'Failed to fetch medicine master list');
+      setError(err.message || err.response?.data?.message || 'Failed to fetch medicine master list');
     } finally {
       setLoading(false);
     }

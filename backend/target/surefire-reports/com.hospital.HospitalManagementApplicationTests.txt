@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.hospital.HospitalManagementApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.86 s -- in com.hospital.HospitalManagementApplicationTests
+Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.37 s -- in com.hospital.HospitalManagementApplicationTests
