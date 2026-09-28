@@ -1,194 +1,562 @@
-# Hospital Management System (HMS) — Full-Stack India-Localized Platform
+# PulseCare HMS — Hospital Management System
 
-An enterprise-grade, full-stack **Hospital Management System (HMS)** built with **Java 21**, **Spring Boot 3.2.5**, **React 18**, **Bootstrap 5**, and **MySQL 8.4**, engineered specifically for Indian hospital workflows, compliance, currency standards (`₹` / `INR`), and timezones (`Asia/Kolkata`).
+A full-stack Hospital Management System designed to manage core hospital operations across outpatient care, inpatient care, electronic health records, pharmacy, inventory, billing, and analytics.
 
----
-
-## 1. Executive Summary & Project Overview
-
-This Hospital Management System spans 7 full development phases, covering end-to-end clinical, operational, inpatient, outpatient, inventory, financial, and analytical hospital functions.
-
-### Core Localization Standards (`en-IN`)
-* **Currency**: Indian Rupee (`INR` / `₹`) with `BigDecimal` precision.
-* **Time Zone**: Indian Standard Time (`Asia/Kolkata` / `UTC+05:30`).
-* **Phone Standard**: Indian Mobile Format (`+91XXXXXXXXXX` / 10 digits).
-* **PIN Standard**: 6-digit Indian PIN Code (`^[1-9][0-9]{5}$`).
-* **Taxation & Licensing**: Support for Indian GSTIN formats, Drug License numbers, and MCI registration formats.
+The system is built with **Java, Spring Boot, React, and MySQL**, using REST APIs, JWT authentication, role-based access control, and a layered backend architecture.
 
 ---
 
-## 2. Technology Stack
+## Overview
 
-| Layer | Technologies & Frameworks |
-|---|---|
-| **Backend Framework** | Java 21, Spring Boot 3.2.5, Spring Data JPA, Hibernate ORM |
-| **Security & Auth** | Spring Security 6, JJWT 0.12.5 (Stateless JWT), BCrypt Password Hashing |
-| **Database** | MySQL 8.4 Server (production/dev), H2 In-Memory Database (automated testing) |
-| **Build Tooling** | Apache Maven (Backend), Vite (Frontend) |
-| **Frontend Framework** | React 18 (ESNext), React Router v6, Axios |
-| **UI & Styling** | Bootstrap 5, Bootstrap Icons, Vanilla CSS |
+PulseCare HMS provides a centralized platform for managing hospital workflows from patient registration and appointment scheduling to clinical records, inpatient admission, pharmacy operations, billing, payments, and management analytics.
+
+The application is organized into seven major development phases:
+
+* Authentication and Administration
+* OPD and Appointments
+* EHR, Laboratory and Radiology
+* IPD, Wards and Bed Management
+* Pharmacy and Inventory
+* Billing and Financial Management
+* Reports and Analytics
+
+The project contains both a **React frontend** and a **Spring Boot REST backend** connected to a **MySQL database**.
 
 ---
 
-## 3. Architecture & Data Flow
+## Key Features
+
+### Authentication & Administration
+
+* JWT-based authentication
+* BCrypt password hashing
+* Role-Based Access Control (RBAC)
+* User and role management
+* Department management
+* Audit logging
+
+### Patient & Doctor Management
+
+* Patient registration and profiles
+* Doctor profiles
+* Department directory
+* Doctor availability management
+* Patient medical information
+
+### OPD & Appointments
+
+* Appointment scheduling
+* Appointment status management
+* Doctor availability
+* OPD registration
+* Live OPD queue
+* Consultation workflow
+* Vitals and consultation notes
+
+### Electronic Health Records
+
+* Patient medical history
+* Allergies and chronic conditions
+* Diagnoses
+* Treatment plans
+* Prescriptions
+* Prescription status management
+
+### Laboratory & Radiology
+
+* Laboratory investigation orders
+* Sample collection workflow
+* Result entry and verification
+* Radiology order management
+* Radiology reporting workflow
+
+### IPD & Bed Management
+
+* Ward management
+* Bed management
+* Patient admission
+* Bed allocation
+* Ward transfers
+* Inpatient vitals
+* Nursing notes
+* Doctor progress notes
+* Discharge planning
+* Discharge summaries
+
+### Pharmacy & Inventory
+
+* Medicine master
+* Supplier management
+* Medicine batch management
+* Purchase orders
+* Goods receipt processing
+* Inventory transactions
+* FEFO-based medicine dispensing
+* Stock adjustments
+* Low-stock and expiry monitoring
+* Patient medicine returns
+
+### Billing & Financial Management
+
+* Charge master
+* Billing accounts
+* OPD and IPD billing
+* Pharmacy, laboratory and radiology billing
+* Itemized invoices
+* Payment processing
+* Partial payments
+* Refunds
+* Credit notes
+* Patient financial ledger
+* IPD billing clearance
+* Duplicate source-billing protection
+
+### Reports & Analytics
+
+* Executive dashboard
+* Revenue and collection metrics
+* Outstanding balances
+* Refund and credit-note tracking
+* Appointment analytics
+* OPD/IPD statistics
+* Bed occupancy
+* Pharmacy statistics
+* Laboratory and radiology statistics
+* CSV report export
+
+---
+
+## Technology Stack
+
+| Layer               | Technology                  |
+| ------------------- | --------------------------- |
+| Backend             | Java 21                     |
+| Backend Framework   | Spring Boot 3.2.5           |
+| Security            | Spring Security 6           |
+| Authentication      | JWT / JJWT 0.12.5           |
+| Password Security   | BCrypt                      |
+| ORM                 | Spring Data JPA / Hibernate |
+| Database            | MySQL 8.4                   |
+| Testing Database    | H2                          |
+| Frontend            | React 18                    |
+| Frontend Build Tool | Vite                        |
+| Routing             | React Router v6             |
+| HTTP Client         | Axios                       |
+| UI Framework        | Bootstrap 5                 |
+| Icons               | Bootstrap Icons             |
+| Backend Build Tool  | Maven                       |
+| API Architecture    | REST                        |
+
+---
+
+## Architecture
+
+PulseCare HMS follows a layered full-stack architecture.
 
 ```text
-React 18 Frontend (Vite Single Page Application)
-       │
-       ▼  (Axios REST Requests with Bearer JWT Header)
-Spring Security 6 & Controller Layer (REST Controllers)
-       │
-       ▼  (Service Layer Business Rules & RBAC Annotations)
-Service Layer (Transactional Operations & Validations)
-       │
-       ▼  (Spring Data JPA Repositories)
-Data Access Layer (Entities & Queries)
-       │
-       ▼  (JDBC Driver)
-MySQL 8.4 Database / H2 Test Engine
+┌──────────────────────────────────────┐
+│          React 18 Frontend           │
+│        Vite + Bootstrap + Axios      │
+└──────────────────┬───────────────────┘
+                   │
+                   │ REST API
+                   │ Bearer JWT
+                   ▼
+┌──────────────────────────────────────┐
+│       Spring Security 6              │
+│       Authentication + RBAC          │
+└──────────────────┬───────────────────┘
+                   ▼
+┌──────────────────────────────────────┐
+│        REST Controller Layer         │
+└──────────────────┬───────────────────┘
+                   ▼
+┌──────────────────────────────────────┐
+│          Service Layer               │
+│ Business Rules + Validation          │
+│ Transaction Management               │
+└──────────────────┬───────────────────┘
+                   ▼
+┌──────────────────────────────────────┐
+│       Spring Data JPA Layer          │
+│        Repositories + Queries        │
+└──────────────────┬───────────────────┘
+                   ▼
+┌──────────────────────────────────────┐
+│            MySQL 8.4                │
+│          hospital_db                 │
+└──────────────────────────────────────┘
+```
+
+### Authentication Flow
+
+```text
+User Login
+    ↓
+React Login Form
+    ↓
+POST /api/auth/login
+    ↓
+Spring Security
+    ↓
+Credential Verification
+    ↓
+JWT Generation
+    ↓
+React Stores Authentication State
+    ↓
+Axios Sends Bearer Token
+    ↓
+JWT Filter Validates Request
+    ↓
+RBAC Authorization
+    ↓
+Controller → Service → Repository
 ```
 
 ---
 
-## 4. System Modules Across Phases 1–7
-
-### Phase 1 — Core Foundation, Auth & Administration
-* **Authentication**: JWT Token generation, validation, refresh, and login/logout audit logging.
-* **RBAC**: 7 System Roles (`ADMIN`, `DOCTOR`, `NURSE`, `RECEPTIONIST`, `PATIENT`, `PHARMACIST`, `BILLING_OFFICER`).
-* **Master Data**: User management, Department directory (`CARDIO`, `ORTHO`, `GENERAL`, `PEDIATRICS`, `DERMATOLOGY`), Patient registration (`PAT-YYYY-XXXXXX`), and Doctor profiles (`DOC-YYYY-XXXXXX`).
-
-### Phase 2 — Outpatient Care (OPD) & Appointments
-* **Doctor Availability**: Day-of-week slot duration and time window management.
-* **Appointments**: Booking (`NEW_CONSULTATION`, `FOLLOW_UP`, `EMERGENCY`), status transitions (`SCHEDULED`, `CHECKED_IN`, `COMPLETED`, `CANCELLED`, `NO_SHOW`), and interactive calendar view.
-* **OPD Live Queue**: Room-wise queue tracking, triage vitals recording, consultation notes, and visit completion.
-
-### Phase 3 — Electronic Health Records (EHR) & Ancillary Services
-* **Clinical History**: Allergic reactions, chronic conditions tracking, diagnosis recording (ICD-10 standard formatting), and treatment plans.
-* **Prescriptions**: Multi-item prescription writing with dosage, frequency, duration, and instructions.
-* **Laboratory & Radiology Orders**: Lab investigation orders (CBC, FBS, HbA1c, LFT, KFT) and Radiology modality studies (X-Ray, Ultrasound, CT, MRI, ECG) with result entry workflows.
-
-### Phase 4 — Inpatient Care (IPD), Wards & Beds
-* **Ward & Bed Infrastructure**: Ward capacity management, Bed mapping (`AVAILABLE`, `OCCUPIED`, `CLEANING`, `MAINTENANCE`), and live occupancy matrix.
-* **IPD Admissions**: Inpatient admission (`ADM-YYYY-XXXXXX`), bed allocation, ward transfers, daily vitals logs, nursing care notes, doctor progress notes, discharge planning, and discharge summary generation.
-
-### Phase 5 — Pharmacy & Inventory Management
-* **Inventory Master**: Medicine catalog (`MED-YYYY-XXXXXX`), dosage forms, therapeutic categories, and supplier directory (`SUP-YYYY-XXXXXX`).
-* **Procurement & Stock Control**: Purchase Orders (`PO-YYYY-XXXXXX`), Goods Receipts (GRN: `GRN-YYYY-XXXXXX`), Batch tracking (`BAT-YYYY-XXXXXX`) with MRP/Cost/Expiry dates, FEFO dispensing (`DSP-YYYY-XXXXXX`), stock adjustments, low-stock, and near-expiry alerts.
-
-### Phase 6 — Billing, Invoicing & Financial Management
-* **Charge Master**: Tariff catalog (`CONSULTATION`, `PROCEDURE`, `LABORATORY`, `RADIOLOGY`, `BED`, `PHARMACY`, `EMERGENCY`, `REGISTRATION`) with base rates and tax rates.
-* **Billing Accounts & Invoices**: Itemized draft and finalized bills (`BILL-YYYY-XXXXXX`), source billing from OPD/IPD/Pharmacy/Lab/Radiology, duplicate charge prevention, partial payments (`PAY-YYYY-XXXXXX`), refunds (`REF-YYYY-XXXXXX`), credit notes (`CN-YYYY-XXXXXX`), and patient double-entry financial ledgers (`LEG-YYYY-XXXXXX`).
-
-### Phase 7 — Reports, Analytics & Executive Dashboards
-* **Executive Dashboard**: Hospital-wide financial highlights (Total Billed, Total Collected, Total Outstanding, Net Revenue), Clinical & OPD/IPD metrics, Bed occupancy rates, Appointment completion breakdown, and Pharmacy/Lab/Radiology utilization statistics.
-* **Tabular Operational Reports**: Payment Collection, Outstanding Balances with aging buckets, Bed Occupancy by Ward, OPD/IPD visits, Pharmacy stock reports, and direct CSV file export (`/api/reports/export/csv`).
-
----
-
-## 5. End-to-End Clinical & Operational Workflows
+## Main Workflows
 
 ### OPD Workflow
+
 ```text
-Patient Registration → Appointment Booking → Patient Check-in 
-→ OPD Live Queue → Consultation & Vitals → EHR & Prescriptions / Lab Orders 
-→ OPD Source Billing → Payment Processing → Patient Ledger Updated
+Patient Registration
+        ↓
+Appointment Booking
+        ↓
+Patient Check-in
+        ↓
+OPD Queue
+        ↓
+Consultation
+        ↓
+Vitals / EHR / Prescription
+        ↓
+Lab or Radiology Orders
+        ↓
+Billing
+        ↓
+Payment
 ```
 
 ### IPD Workflow
+
 ```text
-Patient Admission → Bed Allocation → Daily Nursing & Vitals → Doctor Progress Notes 
-→ Inpatient Medicines & Diagnostics → Final IPD Billing → Payment Clearance 
-→ Discharge Clearance → Discharge Summary → Bed Returned to Cleaning State
+Patient Admission
+        ↓
+Bed Allocation
+        ↓
+Inpatient Care
+        ↓
+Nursing & Vitals
+        ↓
+Doctor Progress Notes
+        ↓
+Medicines / Diagnostics
+        ↓
+Final Billing
+        ↓
+Payment Clearance
+        ↓
+Discharge Summary
+        ↓
+Bed Released
+```
+
+### Pharmacy Workflow
+
+```text
+Medicine Master
+      ↓
+Supplier
+      ↓
+Purchase Order
+      ↓
+Goods Receipt
+      ↓
+Batch & Inventory
+      ↓
+Prescription
+      ↓
+FEFO Dispensing
+      ↓
+Inventory Transaction
+      ↓
+Pharmacy Billing
+```
+
+### Billing Workflow
+
+```text
+Charge Master
+      ↓
+Billing Account
+      ↓
+Bill Creation
+      ↓
+Invoice Finalization
+      ↓
+Payment
+      ↓
+Patient Ledger
+      ↓
+Refund / Credit Note
 ```
 
 ---
 
-## 6. Installation & Execution Guide
+## Project Structure
+
+```text
+HospitalPatientManagementSystem/
+│
+├── backend/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/hospital/
+│   │   │   │       ├── config/
+│   │   │   │       ├── controller/
+│   │   │   │       ├── dto/
+│   │   │   │       ├── entity/
+│   │   │   │       ├── exception/
+│   │   │   │       ├── repository/
+│   │   │   │       ├── security/
+│   │   │   │       └── service/
+│   │   │   └── resources/
+│   │   └── test/
+│   └── pom.xml
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── context/
+│   │   └── App.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
+
+---
+
+## Roles
+
+The system supports seven application roles:
+
+* **ADMIN** — System administration and overall management
+* **DOCTOR** — Clinical and consultation operations
+* **NURSE** — Nursing and inpatient care
+* **RECEPTIONIST** — Patient registration, appointments and operational tasks
+* **PATIENT** — Patient-specific information and services
+* **PHARMACIST** — Pharmacy and inventory operations
+* **BILLING_OFFICER** — Billing and financial operations
+
+Access to backend APIs is controlled using Spring Security and role-based authorization.
+
+---
+
+## Local Setup
 
 ### Prerequisites
-* **Java**: JDK 21+
-* **Node.js**: v18+ & `npm`
-* **Build Tools**: Apache Maven 3.9+
-* **Database**: MySQL Server 8.0+
 
-### Database Initialization
+Install:
+
+* Java 21+
+* Node.js 18+
+* npm
+* Maven 3.9+
+* MySQL 8+
+
+### 1. Create the Database
+
+Start MySQL and create the application database:
+
 ```sql
 CREATE DATABASE IF NOT EXISTS hospital_db;
 ```
 
-### Backend Setup
+Configure the database credentials in the backend application configuration.
+
+### 2. Start the Backend
+
 ```bash
 cd backend
-mvn clean compile
+mvn clean test
 mvn spring-boot:run
 ```
-* Backend server starts at: `http://localhost:8082`
 
-### Frontend Setup
+Backend:
+
+```text
+http://localhost:8082
+```
+
+### 3. Start the Frontend
+
+Open another terminal:
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-* Frontend dev server starts at: `http://localhost:5173`
+
+Frontend:
+
+```text
+http://localhost:5173
+```
 
 ---
 
-## 7. Verification & Testing Commands
+## Testing
 
-### Backend Automated Test Suite
+### Backend Tests
+
 ```bash
 cd backend
 mvn clean test
 ```
-* Executes 47 Spring Boot integration & controller tests using H2 in-memory test configuration (`application-test.properties`).
+
+The current verified test suite contains:
+
+```text
+47 tests
+0 failures
+0 errors
+0 skipped
+BUILD SUCCESS
+```
+
+The tests use an H2 in-memory database for automated testing.
 
 ### Frontend Production Build
+
 ```bash
 cd frontend
 npm run build
 ```
-* Compiles and bundles production static assets using Vite.
+
+The production frontend is bundled using Vite.
 
 ---
 
-## 8. Demo Credentials (Fictional Indian Demo Data)
+## Demo Account
 
-| Role | Username | Password | Full Name |
-|---|---|---|---|
-| **ADMIN** | `admin` | `Admin@123` | Rajesh Sharma |
-| **DOCTOR** | `doc_smith` | `Doctor@123` | Dr. Arjun Krishnan |
-| **DOCTOR** | `doc_davis` | `Doctor@123` | Dr. Sunita Rao |
-| **NURSE** | `nurse_joy` | `Nurse@123` | Anitha Raman |
-| **RECEPTIONIST** | `receptionist_clara` | `Receptionist@123` | Kavitha Menon |
-| **PHARMACIST** | `pharmacist_rahul` | `Pharmacist@123` | Rahul Verma |
-| **BILLING OFFICER** | `billing_vikram` | `Billing@123` | Vikram Malhotra |
-| **PATIENT** | `patient_john` | `Patient@123` | Arun Kumar |
+The project contains fictional demonstration data for local development and demonstration purposes.
 
----
+| Role            | Username             | Password           | Name               |
+| --------------- | -------------------- | ------------------ | ------------------ |
+| ADMIN           | `admin`              | `Admin@123`        | Janisha S          |
+| DOCTOR          | `doc_smith`          | `Doctor@123`       | Dr. Arjun Krishnan |
+| DOCTOR          | `doc_davis`          | `Doctor@123`       | Dr. Sunita Rao     |
+| NURSE           | `nurse_joy`          | `Nurse@123`        | Anitha Raman       |
+| RECEPTIONIST    | `receptionist_clara` | `Receptionist@123` | Kavitha Menon      |
+| PHARMACIST      | `pharmacist_rahul`   | `Pharmacist@123`   | Rahul Verma        |
+| BILLING OFFICER | `billing_vikram`     | `Billing@123`      | Vikram Malhotra    |
+| PATIENT         | `patient_john`       | `Patient@123`      | Arun Kumar         |
 
-## 9. Viva Questions & Key Concepts
-
-### Java & Spring Boot
-1. **Why Java 21 & Spring Boot 3.2.5?**: Virtual threads support, record classes, pattern matching, baseline Spring Security 6 compatibility, and native Java 21 LTS runtime.
-2. **What is `@Transactional`?**: Ensures ACID compliance across database operations (e.g., creating a payment simultaneously updates the bill status and writes a patient ledger entry).
-3. **What is Spring Data JPA?**: Provides ORM abstraction mapping Java entity classes to MySQL tables without raw SQL strings.
-
-### Security & RBAC
-4. **How does JWT Authentication work?**: The backend verifies credentials upon login, generates a signed HS512 JWT token containing role claims, which the React client sends in the `Authorization: Bearer <token>` header for stateless validation.
-5. **Why server-side RBAC over frontend route guards?**: Frontend route guards only control UI navigation visibility; server-side `@PreAuthorize("hasRole(...)")` annotations strictly enforce authority on every API request.
-
-### Financial & Inventory
-6. **Why `DECIMAL(12,2)` for financial values?**: Prevents floating-point precision loss inherent in `float` or `double` types when processing currency totals.
-7. **What is FEFO in Pharmacy?**: First-Expired-First-Out dispensing logic ensures batches with the earliest expiry dates are issued first to reduce waste.
+> These credentials are intended for local/demo use. Change or remove demo credentials before deploying the application publicly.
 
 ---
 
-## 10. Future Enhancements
+## Demo Data
 
-The following modules represent potential future extensions outside the current internship project scope:
-1. **Insurance & TPA Claims Engine**: Automated pre-authorization, claim filing, and third-party settlement tracking.
-2. **Operation Theatre (OT) & Surgical Workflow**: Surgery scheduling, OT roster, anesthesia notes, and surgical checklists.
-3. **Blood Bank Management**: Donor registration, blood component separation, cross-matching, and inventory management.
-4. **Ambulance & Emergency Response**: Vehicle tracking, driver dispatch, and casualty triage integration.
-5. **Telemedicine & Video Consultation**: WebRTC video calls, digital prescriptions, and remote patient monitoring.
+The application includes synthetic demonstration data covering the major modules, including:
+
+* Users and roles
+* Departments
+* Doctors
+* Patients
+* Appointments
+* OPD visits
+* EHR records
+* Prescriptions
+* Medicines
+* Suppliers
+* Inventory batches
+* Purchase orders
+* Goods receipts
+* Laboratory orders
+* Radiology orders
+* Wards and beds
+* IPD admissions
+* Nursing records
+* Discharge records
+* Charge masters
+* Billing accounts
+* Bills
+* Payments
+* Refunds
+* Credit notes
+* Financial ledger entries
+
+All demonstration records are fictional.
+
+---
+
+## Security
+
+The application implements:
+
+* JWT-based stateless authentication
+* BCrypt password hashing
+* Spring Security
+* Role-based API authorization
+* Bearer token authentication
+* Backend-side authorization
+* Request validation
+* Transactional business operations
+* Database-level relationships and constraints
+
+Frontend route protection is supplemented by backend authorization, so API access is not dependent solely on frontend UI restrictions.
+
+---
+
+## Project Status
+
+The seven planned development phases have been implemented and verified.
+
+Current verification includes:
+
+* 47 backend automated tests passed
+* 0 test failures
+* 0 test errors
+* 0 skipped tests
+* Successful frontend production build
+* React frontend connected to Spring Boot REST APIs
+* MySQL database integration verified
+* JWT authentication verified
+* Role-based authorization implemented
+* Major clinical, pharmacy, billing and analytics workflows verified
+
+**Status: Ready for internship demonstration and project presentation.**
+
+---
+
+## Future Enhancements
+
+Potential extensions include:
+
+* Insurance and TPA claim management
+* Operation Theatre management
+* Blood bank management
+* Ambulance and emergency management
+* Telemedicine
+* Advanced notification system
+* Deployment with cloud infrastructure
+* Automated backups and monitoring
+
+---
+
+## Author
+
+**Janisha S.**
+
+BCA Graduate | Master's in Applied Data Science
+
+GitHub: [github.com/Janisha2005](https://github.com/Janisha2005)
